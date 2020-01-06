@@ -29,6 +29,9 @@ import { StatusComponent } from './status/status.component';
     BrowserModule, FormsModule, BrowserAnimationsModule, MatToolbarModule, MatTabsModule, MatButtonModule, MatInputModule, MatDatepickerModule, MatNativeDateModule, MatCheckboxModule, MatRadioModule,
     RouterModule.forRoot([
       { path: '', component: MixingComponent },
+      { path: 'mix', component: MixingComponent },
+      { path: 'status', component: StatusComponent },
+      { path: 'statistics', component: StatisticsComponent },
     ])
   ],
   declarations: [
