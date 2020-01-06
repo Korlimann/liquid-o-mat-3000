@@ -4,6 +4,8 @@ import { RouterModule } from '@angular/router';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatProgressBarModule } from '@angular/material'
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 import {
   MatToolbarModule,
@@ -26,7 +28,7 @@ import { StatusComponent } from './status/status.component';
   imports: [
     BrowserModule,
     ReactiveFormsModule,
-    BrowserModule, FormsModule, BrowserAnimationsModule, MatToolbarModule, MatTabsModule, MatButtonModule, MatInputModule, MatDatepickerModule, MatNativeDateModule, MatCheckboxModule, MatRadioModule,
+    BrowserModule, FormsModule, BrowserAnimationsModule, MatToolbarModule, MatTabsModule, MatButtonModule, MatInputModule, MatDatepickerModule, MatNativeDateModule, MatCheckboxModule, MatRadioModule, MatProgressBarModule, FlexLayoutModule,
     RouterModule.forRoot([
       { path: '', component: MixingComponent },
       { path: 'mix', component: MixingComponent },
