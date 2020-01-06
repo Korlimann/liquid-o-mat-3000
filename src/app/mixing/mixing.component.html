@@ -1,0 +1,18 @@
+<form>
+  <mat-form-field>
+    <mat-label>VG</mat-label>
+    <input matInput #vg>
+    <mat-hint *ngIf="firstNameAutofilled">Autofilled!</mat-hint>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>PG</mat-label>
+    <input matInput #pg>
+    <mat-hint *ngIf="lastNameAutofilled">Autofilled!</mat-hint>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Nic</mat-label>
+    <input matInput #nic>
+    <mat-hint *ngIf="lastNameAutofilled">Autofilled!</mat-hint>
+  </mat-form-field>
+  <button mat-raised-button>Submit</button>
+</form>
